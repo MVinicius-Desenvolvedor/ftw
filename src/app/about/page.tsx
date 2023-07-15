@@ -1,5 +1,5 @@
 import React from "react";
-import Trips from "./componente/page";
+import Trips from "./components/Trips";
 
 
 

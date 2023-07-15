@@ -76,8 +76,7 @@ model User {
   image         String?
   accounts      Account[]
   sessions      Session[]
-  reservation  TripReservation[]
-
+  reservations TripReservation[]
 }
 
 model VerificationToken {
@@ -87,5 +86,3 @@ model VerificationToken {
 
   @@unique([identifier, token])
 }
-
-
