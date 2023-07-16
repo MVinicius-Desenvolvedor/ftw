@@ -15,7 +15,7 @@ const Trips = async() => {
     console.log({data});
 
 
-    return <div>trips atualizado 4</div>;
+    return <div>trips atualizado 5</div>;
 
 };
 
